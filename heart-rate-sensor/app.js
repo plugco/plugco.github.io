@@ -19,6 +19,7 @@ function handleBodySensorLocation(bodySensorLocation) {
 }
 
 function handleHeartRateMeasurement(raw) {
+  console.log(raw);
   var heartRateMeasurement = heartRateSensor.parseHeartRate(raw);
   statusText.innerHTML = heartRateMeasurement.heartRate + ' &#x2764;';
   heartRates.push(heartRateMeasurement.heartRate);
@@ -26,6 +27,7 @@ function handleHeartRateMeasurement(raw) {
 }
 
 function handleHeartRateMeasurementNotification(heartRateMeasurement) {
+  console.log(heartRateMeasurement);
   heartRateMeasurement.addEventListener('characteristicvaluechanged', event => {
     var heartRateMeasurement = heartRateSensor.parseHeartRate(event.target.value);
     statusText.innerHTML = heartRateMeasurement.heartRate + ' &#x2764;';
