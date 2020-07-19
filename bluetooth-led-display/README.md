@@ -1,6 +1,6 @@
 # LED Display
 
-Available at https://webbluetoothcg.github.io/demos/bluetooth-led-display/
+Available at https://plugco.github.io/bluetooth-led-display/
 
 <img src="https://raw.githubusercontent.com/webbluetoothcg/demos/gh-pages/bluetooth-led-display/dotti.jpg">
 

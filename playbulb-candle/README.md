@@ -1,6 +1,6 @@
 # PLAYBULB Candle Demo
 
-Available at https://webbluetoothcg.github.io/demos/playbulb-candle/
+Available at https://plugco.github.io/playbulb-candle/
 
 <img width="308px" src="https://raw.githubusercontent.com/WebBluetoothCG/demos/gh-pages/playbulb-candle/hero.png">
 

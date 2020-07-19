@@ -1,6 +1,6 @@
 # Heart Rate Sensor Demo
 
-Available at https://webbluetoothcg.github.io/demos/heart-rate-sensor/
+Available at https://plugco.github.io/heart-rate-sensor/
 
 <img src="https://raw.githubusercontent.com/webbluetoothcg/demos/gh-pages/heart-rate-sensor/hero.png">
 

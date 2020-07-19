@@ -1,6 +1,6 @@
 # Bluetooth Rename Tool
 
-Available at https://webbluetoothcg.github.io/demos/bluetooth-rename/
+Available at https://plugco.github.io/bluetooth-rename/
 
 <img width="308px" src="https://raw.githubusercontent.com/WebBluetoothCG/demos/gh-pages/bluetooth-rename/screenshot.png">
 

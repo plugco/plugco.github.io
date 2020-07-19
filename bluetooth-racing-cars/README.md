@@ -1,6 +1,6 @@
 # Racing Cars
 
-Available at https://webbluetoothcg.github.io/demos/bluetooth-racing-cars/
+Available at https://plugco.github.io/bluetooth-racing-cars/
 
 <img src="https://raw.githubusercontent.com/webbluetoothcg/demos/gh-pages/bluetooth-racing-cars/cars.jpg">
 

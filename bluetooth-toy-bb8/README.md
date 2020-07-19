@@ -1,6 +1,6 @@
 # Web Bluetooth BB-8
 
-Available at https://webbluetoothcg.github.io/demos/bluetooth-toy-bb8/
+Available at https://plugco.github.io/bluetooth-toy-bb8/
 
 <img src="https://raw.githubusercontent.com/webbluetoothcg/demos/gh-pages/bluetooth-toy-bb8/bb8.jpg">
 

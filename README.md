@@ -2,7 +2,7 @@
 
 Check your [browser and platform implementation status](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md) first.
 
-### Hosted here: https://webbluetoothcg.github.io/demos/
+### Hosted here: https://plugco.github.io/
 
 - [Bluetooth LED Display](/bluetooth-led-display/)
 - [Bluetooth Printer](/bluetooth-printer/)
@@ -11,7 +11,7 @@ Check your [browser and platform implementation status](https://github.com/WebBl
 - [Bluetooth Toy BB-8](/bluetooth-toy-bb8/)
 - [Bluetooth Toy Plane](/bluetooth-toy-plane/)
 - [Heart Rate Sensor](/heart-rate-sensor/)
-- [PLAYBULB Candle](/playbulb-candle/) 
+- [PLAYBULB Candle](/playbulb-candle/)
 
 ### Hosted Elsewhere
 
@@ -22,7 +22,7 @@ Check your [browser and platform implementation status](https://github.com/WebBl
 - [Physical Web Light Switch](https://github.com/hardillb/physical-web-lightswitch) by [@hardillb](https://github.com/hardillb)
 - [purple-eye](https://github.com/urish/purple-eye) by [@urish](https://github.com/urish)
 - [Eddystone Beacon Configuration](https://beaufortfrancois.github.io/sandbox/web-bluetooth/eddystone-url-config/index.html) by [@beaufortfrancois](https://github.com/beaufortfrancois)
-- [webble-mip](https://github.com/urish/webble-mip) by [@urish](https://github.com/urish) 
+- [webble-mip](https://github.com/urish/webble-mip) by [@urish](https://github.com/urish)
 - [MakeBlock mBot Robot](https://github.com/binomed/mbot-webbluetooth) by [@binomed](https://github.com/binomed)
 - [Remote Lego project](https://github.com/devmil/remotelego) by [@devmil](https://github.com/devmil)
 - [nrf52-Quadcopter](https://github.com/NordicSemiconductor/nrf52-quadcopter) by [@NordicSemiconductor](https://github.com/NordicSemiconductor)
