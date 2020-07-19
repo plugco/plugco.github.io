@@ -44,6 +44,9 @@
         }
      });
     }
+    getHeartRateMeasurement() {
+      return this._readCharacteristicValue('heart_rate_measurement');
+    }
     startNotificationsHeartRateMeasurement() {
       return this._startNotifications('heart_rate_measurement');
     }

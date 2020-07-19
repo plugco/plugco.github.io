@@ -7,7 +7,8 @@ statusText.addEventListener('click', function() {
   heartRates = [];
   heartRateSensor.connect()
   .then(() => heartRateSensor.getBodySensorLocation().then(handleBodySensorLocation))
-  .then(() => heartRateSensor.startNotificationsHeartRateMeasurement().then(handleHeartRateMeasurement))
+  .then(() => heartRateSensor.getHeartRateMeasurement().then(handleHeartRateMeasurement))
+  .then(() => heartRateSensor.startNotificationsHeartRateMeasurement().then(handleHeartRateMeasurementNotification))
   .catch(error => {
     statusText.textContent = error;
   });
@@ -17,7 +18,14 @@ function handleBodySensorLocation(bodySensorLocation) {
   bodySensorLocationElem.innerHTML = 'Location: ' + bodySensorLocation;
 }
 
-function handleHeartRateMeasurement(heartRateMeasurement) {
+function handleHeartRateMeasurement(raw) {
+  var heartRateMeasurement = heartRateSensor.parseHeartRate(raw);
+  statusText.innerHTML = heartRateMeasurement.heartRate + ' &#x2764;';
+  heartRates.push(heartRateMeasurement.heartRate);
+  drawWaves();
+}
+
+function handleHeartRateMeasurementNotification(heartRateMeasurement) {
   heartRateMeasurement.addEventListener('characteristicvaluechanged', event => {
     var heartRateMeasurement = heartRateSensor.parseHeartRate(event.target.value);
     statusText.innerHTML = heartRateMeasurement.heartRate + ' &#x2764;';
