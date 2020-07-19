@@ -1,15 +1,21 @@
 var canvas = document.querySelector('canvas');
 var statusText = document.querySelector('#statusText');
+var bodySensorLocationElem = document.querySelector('#bodySensorLocation');
 
 statusText.addEventListener('click', function() {
   statusText.textContent = 'Breathe...';
   heartRates = [];
   heartRateSensor.connect()
+  .then(() => heartRateSensor.getBodySensorLocation().then(handleBodySensorLocation))
   .then(() => heartRateSensor.startNotificationsHeartRateMeasurement().then(handleHeartRateMeasurement))
   .catch(error => {
     statusText.textContent = error;
   });
 });
+
+function handleBodySensorLocation(bodySensorLocation) {
+  bodySensorLocationElem.innerHTML = 'Location: ' + bodySensorLocation;
+}
 
 function handleHeartRateMeasurement(heartRateMeasurement) {
   heartRateMeasurement.addEventListener('characteristicvaluechanged', event => {
